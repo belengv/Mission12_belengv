@@ -350,24 +350,15 @@ function TeamList(){
 }
 
 
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>Colleges in NCAA Basketball</h1>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://t4.ftcdn.net/jpg/00/70/96/69/360_F_70966983_r2eRTeKevJjArTrmbB2osy5f4JnaJRB1.jpg" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Scroll to learn more about NCAA teams...
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
       <TeamList/>
     </div>
